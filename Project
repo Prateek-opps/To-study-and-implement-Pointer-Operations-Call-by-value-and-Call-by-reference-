@@ -1,0 +1,44 @@
+EXPERIMENT - 10
+Prateek Sinha
+24070123077
+ENTC A3
+
+#include<iostream>
+using namespace std;
+void increment(int count,int salary){
+if(count>=3){
+int newsalary=((salary*20)/100)+salary;
+cout<<"new salary="<<newsalary<<endl;}
+else{cout<<"no increment";}
+}
+int main(){
+int researchproject,researchpublication,profit,newproject,count=0;
+cout<<"No. of research project done by you:"<<endl;
+cin>>researchproject;
+cout<<"No. of research publication done by you:"<<endl; 
+cin>>researchpublication;
+cout<<"enter the profit"<<endl;
+cin>>profit;
+cout<<"No of new projects by the firm:"<<endl;
+cin>>newproject;
+if(researchproject>=1)count++;
+if(researchpublication>=1)count++;
+if(profit>=100000)count++;
+if(newproject>=1)count++;
+int salary;
+cout<<"enter your salary:"<<endl;cin>>salary;
+increment(count,salary);
+}
+/*Output:-
+No. of research project done by you:
+1
+No. of research publication done by you:
+1
+enter the profit
+0
+No of new projects by the firm:
+0
+enter your salary:
+10000
+no increment
+*/
