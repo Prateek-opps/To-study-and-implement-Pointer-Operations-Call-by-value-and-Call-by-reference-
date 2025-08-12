@@ -1,3 +1,9 @@
+Prateek Sinha
+
+24070123077
+
+ENTC A3
+
 # C++ Programs – Function Calling Techniques and Salary Increment Project
 
 This repository contains four C++ programs demonstrating different methods of function calling and a practical application project that evaluates salary increments based on performance criteria.
