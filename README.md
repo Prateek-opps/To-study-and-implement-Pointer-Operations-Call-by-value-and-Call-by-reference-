@@ -151,6 +151,39 @@ If the employee satisfies **three or more** criteria, they receive a 20% salary 
 6. Else:
    - Display “no increment”.
 
+# Topic 5: Sequential Array Modification Program
+
+## Theory
+
+This program modifies an array of integers by replacing its elements with consecutive integers, starting from a user-defined value. It's a simple demonstration of array manipulation and function usage in programming.
+
+---
+
+## Algorithm
+
+1. **Input**  
+   Prompt the user to enter a starting number.
+
+2. **Original Array**  
+   Initialize an array with predefined values.
+
+3. **Display Original Array**  
+   Print the contents of the original array before modification.
+
+4. **Modify Array**  
+   - Define a function `fillArraySequential` that takes:
+     - An array of integers
+     - A reference to an integer (starting number)
+   - Inside the function:
+     - Iterate through the array
+     - Assign each element the current value of the starting number
+     - Increment the starting number after each assignment
+
+5. **Display Modified Array**  
+   Print the contents of the modified array after the function call.
+
+---
+
 ### Conclusion
 
 This project demonstrates a real-life use of decision-making structures and user input handling in C++. It effectively shows how conditional logic can drive business rule implementations like performance-based salary evaluation.
