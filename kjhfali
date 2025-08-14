@@ -1,3 +1,8 @@
+EXPERIMENT - 10
+Prateek Sinha
+24070123077
+ENTC A3
+
 #include<iostream>
 using namespace std;
 void fillArraySequential(int arr[],int&start){
