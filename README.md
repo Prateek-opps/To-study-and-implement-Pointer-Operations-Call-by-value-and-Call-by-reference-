@@ -151,7 +151,7 @@ If the employee satisfies **three or more** criteria, they receive a 20% salary 
 6. Else:
    - Display “no increment”.
 
-# Topic 5: Sequential Array Modification Program
+### Topic 5: Sequential Array Modification Program
 
 ## Theory
 
